@@ -1,6 +1,7 @@
 # sprawdzanie polaczenia
 //sprawdzenie, czy workflow ma poprawny dostęp do repo
 - name: Check out repo
+- 
   uses: actions/checkout@v3
 
 # instalacja środowiska Docker + Buildx
